@@ -1,0 +1,245 @@
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color: #0086ef;
+    position: relative;
+}
+.banner_pic img{
+    position: absolute;
+    bottom: 0;
+    right: 6%;
+}
+
+@media (max-width: 1440px){
+    .banner {
+        height: 600px;
+    }
+    .banner_doc{
+        margin: 6.3em 0 0em 12em;
+    } .banner_pic img{
+          width: 315px;
+      }
+}
+@media(max-width:1080px) {
+    .banner {
+        height: 535px;
+    }
+    .banner_doc{
+        margin: 5em 0 0em 12em;
+    }
+    .banner_pic img{
+        width: 275px;
+    }
+}
+@media(max-width:991px) {
+    .banner {
+        height: 500px;
+    }
+    .banner_pic img{
+        width: 254px;
+    }}
+@media(max-width:800px) {
+    .banner {
+        height: 450px;
+    }
+    .banner_doc{
+        margin: 5em 0 0em 10em;
+    } .banner_pic img{
+          width: 225px;
+      }
+}
+@media(max-width:700px) {
+    .banner {
+        height: 380px;
+    }
+    .banner_doc{
+        margin: 4.5em 0 0em 10em;
+    }
+    .banner_pic img{
+        width: 210px;
+    }
+}
+@media(max-width:550px) {
+    .banner {
+        height: 330px;
+    }
+    .banner_doc{
+        margin: 3.5em 0 0em 5.5em;
+    }
+    .banner_pic img{
+        width: 165px;
+    }
+}
+@media(max-width:440px) {
+    .banner {
+        height: 29em;
+    }
+    .banner_doc{
+          margin: 4em 0 0em 5.5em;
+      }
+    .banner_pic img{
+        width: 140px;
+    }
+}
+@media(max-width:410px) {
+    .banner {
+        height: 29em;
+    }
+    .banner_doc{
+        margin: 2em 0 0em 1.5em;
+    }
+}
+@media(max-width:380px) {
+
+    .banner_doc h3{
+       font-size: 22px;
+    }
+}
+.header {
+    padding: 2em 2.5em;
+
+}
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.header_logo{
+    float: left;
+    color: #fff;
+}
+.header_menu_button{
+    position: fixed;
+    margin: 4.3em 0em 0;
+    right: 2.5%;
+    top: -2.5%;
+    z-index: 999;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.header_menu_button_line{
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    transition: 1s ease;
+    margin: .3em auto;
+}
+.header_menu_button_lineb{
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    position: relative;
+    transition: 1s ease;
+    margin: .7em auto;
+
+}
+.banner-left {
+    padding-top: 1em;
+}
+.banner_doc h2{
+    color: #fff;
+}
+.banner_doc h3{
+    color:#ddd;
+}
+.aboutme{
+ padding: 5em 0;
+}
+.aboutme h3{
+    text-align: center;
+    font-size: 3.5em;
+    color: #0b98ea;
+    Position: relative;
+    margin-bottom: 1.3em;
+}
+.aboutme_left{
+    background: #fff;
+    border: 23px solid #fff;
+    padding: 0;
+    box-shadow: -2px 7px 27px -4px rgba(0,0,0,0.75);
+}
+.aboutme_left img{
+    overflow:hidden;
+    width: 100%;
+}
+.aboutme_right{
+    padding: 2.4em 3em;
+    background: #0b98ea;
+    box-shadow: 4px 4px 14px -2px rgba(0,0,0,0.75);
+}
+.aboutme_right_doc{
+    padding: 0.7em 0;
+    border-bottom: 1px solid #5abcf5;
+}
+.aboutme_right_doc h4{
+    font-size: 1.5em;
+    color: #fff;
+}
+.aboutme_right_doc p{
+    color: #eaeaea;
+    font-size: 1.2em;
+}
+
+.projects h3{
+    text-align: center;
+    font-size: 3.5em;
+    color: #0b98ea;
+    Position: relative;
+    margin-bottom: 1.3em;
+}
+.projects_neironga1{
+    margin-top: 2em;
+}
+.projects_neironga1_cover{
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #FFF;
+    transition: opacity 0.35s, transform 0.35s;
+    transform: scale(0,1);
+    z-index:9;
+}
+/*.projects_neironga1_cover{*/
+    /*position: absolute;*/
+    /*width:100%;*/
+    /*height:100%;*/
+    /*background-color: red;*/
+    /*top:0;*/
+    /*left: 0;*/
+    /*opacity:0;*/
+    /*transition:all 1s;*/
+/*}*/
+.projects_neironga1 a{
+    text-align: center;
+}
+.projects_neironga1 img{
+    width: 100%;
+}
+.projects_neironga1_cover h4{
+    text-align: center;
+    position: relative;
+    font-size: 1.8em;
+    font-weight: 600;
+    background-color: transparent;
+    color: #fff;
+    padding: 2em 0 0 0;
+    opacity: 0;
+    /*filter: alpha(opacity=0);*/
+    transition: opacity 0.35s, transform 0.35s;
+    transform: translate3d(0,-100%,0);
+}
+.projects_neironga1:hover .projects_neironga1_cover{
+    transform: scale(1,1);
+}
+.projects_neironga1:hover h4{
+    opacity:1;
+    transform: translate3d(0,30%,0);
+}
